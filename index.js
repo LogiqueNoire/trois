@@ -9,6 +9,7 @@ $(document).ready(() => {
         // Idioma
         const languageSelector = document.getElementById('languageSelector');
 
+        /*
         if (languageSelector) {
             const nav1 = document.getElementById('nav1');
             const nav2 = document.getElementById('nav2');
@@ -38,7 +39,7 @@ $(document).ready(() => {
             loadContent("es");
         } else {
             console.error("languageSelector no encontrado en header.html");
-        }
+        }*/
     });
 });
 
