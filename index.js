@@ -1,3 +1,5 @@
+$("#header").load("header.html");
+
 $(document).ready(() => {
     // Cargar header
     $("#header").load("header.html");
