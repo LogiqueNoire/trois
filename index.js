@@ -4,7 +4,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     //cargar header
-     $("#header").load("/module/html/header.html", () => {
+     $("#header").load("/header.html", () => {
         
     //idioma
     const nav1 = document.getElementById('nav1');
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log(languageSelector);
 
     const loadContent = (language) => {
-        fetch('/module/content.json')
+        fetch('/content.json')
             .then(response => response.json())
             .then(data => {
                 nav1.textContent = data[language].nav1;
