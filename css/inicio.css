@@ -1,0 +1,32 @@
+ #myslide {
+   display: flex;
+   flex-wrap: nowrap;
+ }
+
+ .slidePhrase {
+   font-size: 3.5vw;
+   width: auto;
+   padding-left: 5%;
+   align-self: center;
+ }
+
+ .imageSlide{
+  width: 100%;
+  max-width: 100%;
+ }
+ 
+ @media (max-width: 768px) {
+   #myslide {
+     display: block;
+     flex-wrap: wrap;
+   }
+
+   .slidePhrase {
+     font-size: 3vh;
+     width: 100%;
+     padding: 4%;
+   }
+
+ }
+
+

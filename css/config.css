@@ -1,0 +1,143 @@
+body>*:nth-child(2) {
+  display: flex;
+  align-items: start;
+}
+
+aside {
+  width: 250px;
+  background-color: rgb(223, 245, 255);
+  height: 90%;
+}
+
+main {
+  width: 100%;
+  padding: 15px;
+  margin-inline: 15px;
+}
+
+.option {
+  background-color: #0dcaf0;
+  border: 0px;
+  border-radius: 20px;
+  margin-inline: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 8px;
+}
+
+.option:hover {
+
+  background-color: #31d2f2;
+  border-color: #25cff2;
+}
+
+.option:focus,
+.option.focus {
+  background-color: #3dd5f3;
+  border-color: #25cff2;
+}
+
+.option>* {
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.option> :nth-child(2) {
+  margin-left: 5px;
+}
+
+
+.rowQualifications {
+  justify-content: space-between;
+}
+
+.myaside {
+  padding: 15px;
+}
+
+main> :nth-child(1),
+main> :nth-child(2) {
+  justify-content: center;
+}
+
+#descripcion {
+  border-radius: 40px;
+  background-color: rgb(223, 245, 255);
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+#descripcion>.parrafo {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-inline: 1rem;
+}
+
+@media (max-width: 425px) {
+  #logo {
+    height: 40px;
+  }
+
+  #logoIniciarSesion {
+    width: 80%;
+  }
+
+  .myaside {
+    display: none;
+  }
+
+  /*
+  .option> *:nth-child(2){
+    display:none;
+  }
+*/
+
+  #descripcion {
+    border-radius: 20px;
+    background-color: rgb(223, 245, 255);
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+}
+
+.qualification {
+  background-color: rgb(200, 224, 244);
+  border-radius: 20px;
+  margin-inline: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  width: max-content;
+  margin-bottom: 20px;
+  padding: 8px;
+}
+
+.qualification> :nth-child(2) {
+  margin-left: 8px;
+}
+
+.material-icons.md-36 {
+  font-size: 36px;
+}
+
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
+.mifieldset{
+  border-top-width: 100px;
+  border-color: #0dcaf0;
+}
+
+.switch{
+  all:initial;
+  width: 50px;
+  height: 30px;
+}
