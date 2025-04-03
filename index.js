@@ -7,7 +7,7 @@ $(document).ready(() => {
      $("#header").load("/header.html")
      
     });
-    
+
     /*    
      , () => {
         
@@ -50,5 +50,5 @@ $(document).ready(() => {
 
 });
 
-
+*/
 
