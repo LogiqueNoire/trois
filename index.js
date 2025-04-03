@@ -4,7 +4,12 @@
 $(document).ready(() => {
 
     //cargar header
-     $("#header").load("/header.html", () => {
+     $("#header").load("/header.html")
+     
+    });
+    
+    /*    
+     , () => {
         
     //idioma
     const nav1 = document.getElementById('nav1');
