@@ -1,10 +1,16 @@
-
+$(document).ready(function() {
+    $("#header").load("header.html", function(response, status, xhr) {
+      if (status == "error") {
+        console.error("Error al cargar header.html:", xhr.status, xhr.statusText);
+      }
+    });
+  });
 
 
 $(document).ready(() => {
 
     //cargar header
-     $("#header").load("/header.html")
+     $("#header").load("header.html")
      
     });
 
