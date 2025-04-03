@@ -7,7 +7,7 @@ $(document).ready(() => {
         }
 
         // Idioma
-        const languageSelector = document.getElementById('languageSelector');
+        //const languageSelector = document.getElementById('languageSelector');
 
         /*
         if (languageSelector) {
