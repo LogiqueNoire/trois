@@ -59,8 +59,7 @@ main {
   padding: 15px;
 }
 
-main> :nth-child(1),
-main> :nth-child(2) {
+main> :nth-child(1) {
   justify-content: center;
 }
 
