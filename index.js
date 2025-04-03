@@ -1,10 +1,6 @@
 $(document).ready(() => {
     // Cargar header
-    $("#header").load("header.html", function (response, status, xhr) {
-        if (status === "error") {
-            console.error("Error al cargar header.html:", xhr.status, xhr.statusText);
-            return; // Detener la ejecución si hay un error
-        }
+    $("#header").load("header.html");
 
         // Idioma
         //const languageSelector = document.getElementById('languageSelector');
@@ -40,7 +36,7 @@ $(document).ready(() => {
         } else {
             console.error("languageSelector no encontrado en header.html");
         }*/
-    });
+    
 });
 
 
