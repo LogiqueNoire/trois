@@ -1,0 +1,33 @@
+{
+    "es":{
+        "nav1": "Iniciar sesión",
+        "nav2": "Registrarse",
+        "nav3": "Perfil de muestra",
+        "btnIngresar": "Usuario",
+        "btnRegistrarse": "Contraseña",
+        "slidePhrase1": "Bienvenido a Qualifications! Conecta tus habilidades con tu empleo ideal.",
+        "slidePhrase2": "En Qualifications, nos centramos en valorar tu talento y garantizamos tus competencias para que otros las vean.",
+        "slidePhrase3": "Si eres reclutador, ahorra tiempo y conecta con las personas que necesitas"
+    },
+
+    "en":{
+        "nav1": "Log in",
+        "nav2": "Sign up",
+        "nav3": "Sample profile",
+        "btnIngresar": "User",
+        "btnRegistrarse": "Password",
+        "slidePhrase1": "Welcome to Qualifications! Connect your skills with your ideal job",
+        "slidePhrase2": "At Qualifications, we focus on valuing your talent and assure your competences so others watch them.",
+        "slidePhrase3": "If you are a recruiter, save time and connect with the people you need."
+        },
+    "fr":{
+        "nav1": "Log in",
+        "nav2": "Register",
+        "nav3": "Exemple de profil",
+        "btnIngresar": "User",
+        "btnRegistrarse": "Password",
+        "slidePhrase1": "Bienvenue sur Qualifications! Connectez vos talents à votre emploi ideal",
+        "slidePhrase2": "Dans Qualifications, nous nous concentrons sur la valorisation de votre talent et sur la garantie de vos compétences aux yeux des autres.",
+        "slidePhrase3": "Si vous êtes recruteur, gagnez du temps et connectez-vous avec les personnes dont vous avez besoin."
+        }
+}
