@@ -16,7 +16,7 @@ $(document).ready(() => {
             const slidePhrase3 = document.getElementById('slidePhrase3');
 
             const loadContent = (language) => {
-                fetch('/content.json')
+                fetch('./content.json')
                     .then(response => response.json())
                     .then(data => {
                         if (nav1) nav1.textContent = data[language].nav1;
