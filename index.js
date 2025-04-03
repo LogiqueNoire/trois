@@ -1,7 +1,7 @@
 
 
 
-document.addEventListener('DOMContentLoaded', () => {
+$(document).ready(() => {
 
     //cargar header
      $("#header").load("/header.html", () => {
